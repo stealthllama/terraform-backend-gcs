@@ -1,2 +1,2 @@
 # GCPBackendSkillet
-A skillet for building a Terraform backend with state locking in Google Cloud Storage
+A skillet for creating a Terraform backend with state locking in Google Cloud Storage
