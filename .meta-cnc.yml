@@ -1,4 +1,3 @@
-
 name: Terraform Backend (GCP)
 label: Terraform Backend (GCP)
 description: Creates a Terraform remote backend with state locking in Google Cloud Storage.
