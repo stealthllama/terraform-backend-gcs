@@ -10,7 +10,7 @@ labels:
 variables:
   - name: gcp_project_id
     description: GCP Project ID
-    type_hint: string
+    type_hint: text
   - name: gcp_credential
     description: GCP credential file content
     type_hint: text_area
