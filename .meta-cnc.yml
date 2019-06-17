@@ -21,8 +21,8 @@ variables:
     dd_list:
       - key: asia-east1
         value: asia-east1
-      - key: asia-east2	
-        value: asia-east2	
+      - key: asia-east2
+        value: asia-east2
       - key: asia-northeast1
         value: asia-northeast1
       - key: asia-northeast2
