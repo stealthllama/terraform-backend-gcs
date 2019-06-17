@@ -1,0 +1,63 @@
+
+name: Terraform Backend (GCP)
+label: Terraform Backend (GCP)
+description: Creates a Terraform remote backend with state locking in Google Cloud Storage.
+type: terraform
+extends:
+
+labels:
+  collection: Terraform Backends
+
+variables:
+  - name: gcp_project_id
+    description: GCP Project ID
+    type_hint: string
+  - name: gcp_credential
+    description: GCP credential file content
+    type_hint: text_area
+  - name: gcp_region
+    description: GCP Region
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: asia-east1
+        value: asia-east1
+      - key: asia-east2	
+        value: asia-east2	
+      - key: asia-northeast1
+        value: asia-northeast1
+      - key: asia-northeast2
+        value: asia-northeast2
+      - key: asia-south1
+        value: asia-south1
+      - key: asia-southeast1
+        value: asia-southeast1
+      - key: australia-southeast1
+        value: australia-southeast1
+      - key: europe-north1
+        value: europe-north1
+      - key: europe-west1
+        value: europe-west1
+      - key: europe-west2
+        value: europe-west2
+      - key: europe-west3
+        value: europe-west3
+      - key: europe-west4
+        value: europe-west4
+      - key: europe-west6
+        value: europe-west6
+      - key: northamerica-northeast1
+        value: northamerica-northeast1
+      - key: southamerica-east1
+        value: southamerica-east1
+      - key: us-central1
+        value: us-central1
+      - key: us-east1
+        value: us-east1
+      - key: us-east4
+        value: us-east4
+      - key: us-west1
+        value: us-west1
+      - key: us-west2
+        value: us-west2
+        
