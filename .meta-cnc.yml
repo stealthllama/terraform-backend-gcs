@@ -5,18 +5,21 @@ type: terraform
 extends:
 
 labels:
-  collection: Terraform Backends
+  collection: 
+    - Terraform Backends
 
 variables:
   - name: gcp_project_id
     description: GCP Project ID
     type_hint: text
+    required: true
   - name: gcp_credential
     description: GCP credential file content
-    type_hint: text_area
+    type_hint: json
+    required: true
   - name: gcp_region
     description: GCP Region
-    default: choices
+    default: us-east4
     type_hint: dropdown
     dd_list:
       - key: asia-east1
